@@ -1,69 +1,82 @@
-# movue-it
+<h1 align="center">
+  Movue.it
+</h1>
 
-## Build Setup
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-executar">Como executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-licença">Licença</a>
+</p>
 
-```bash
-# install dependencies
-$ npm install
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=8257E5&labelColor=000000">
+</p>
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+## Features
 
-# build for production and launch server
-$ npm run build
-$ npm run start
+<p align="center">
+  <img alt="Funcionamento Movue.it" src=".github/images/ " width="100%">
+</p>
 
-# generate static project
-$ npm run generate
-```
+- [x] Desenvolvimento de tela unica englobando todos os `componentes`:
+  - [x] Componente para a `ExperienceBar`, responsável pela logica de armazear xp do usuário;
+  - [x] Componente para `Profile`, responsável pelas informações e foto do usuário, assim como seu nível atual;
+  - [x] Componente `CompletedChallenge`, responsável por exibir a quantidade total de desafios completados pelo usuário;
+  - [x] Compoente `Countdown`, responsável pelo lógica de cronometrar os 25minutos e dar gatilhos de ação pros demais componentes;
+  - [x] Componente `Card`, responsável pela lógica de englobar outros Componentes, puxar novos desafios e suas respectivas ações;
+- [x] Desenvolvimento de estados globais com TypeScript:
+  - [x] Colocando as devidas tipagens;
+  - [x] Desenvolvimento das stors Challenges e Countdown;
+  - [x] Mapeamentos dos `States`, `Getters` e `Mutations`;
+- [x] Estruturação da arquitetura seguindo o <a href="https://medium.com/pretux/atomic-design-o-que-%C3%A9-como-surgiu-e-sua-import%C3%A2ncia-para-a-cria%C3%A7%C3%A3o-do-design-system-e3ac7b5aca2c" target="_blank">`AtomicDesign`</a>;
+- [x] Utilização do Tailwind para orgnização do `Design system`;
+- [x] Testes unitários com o `Jest`;
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+## Plus para o próximo passo
+- [ ] Desenvolvimento de um BackEnd para fornecer os desafios via API Rest;
+- [ ] Tema Dark;
 
-## Special Directories
+<div style="display: inline_block" align="center"><br>
+  <img align="center" alt="telaMobile" width="16%" src=".github/images/img-01.png">
+  <img align="center" alt="telaMobile" width="16%" src=".github/images/img-02.png">
+  <img align="center" alt="telaMobile" width="16%" src=".github/images/img-03.png">
+  <img align="center" alt="telaMobile" width="16%" src=".github/images/img-04.png">
+  <img align="center" alt="telaMobile" width="16%" src=".github/images/img-05.png">
+  <img align="center" alt="telaMobile" width="16%" src=".github/images/img-06.png">
+</div>
 
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
+## ✨ Tecnologias
 
-### `assets`
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
+- [Nuxt](https://nuxtjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind](https://tailwindcss.com/)
+- [Jest](https://jestjs.io/pt-BR/)
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
+## 💻 Projeto
 
-### `components`
+O move.it é um app que une a técnica de Pomodoro com a realização de exercícios físicos para quem passa muito tempo na frente do computador.
 
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
+#### 💻 O que é a técnica de Pomodoro?
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
+O método Pomodoro é simples e dura duas horas. Primeiro, você realiza uma atividade durante 25 minutos. Quando acabar o tempo, descansa 5 minutos. Assim sucessivamente até que complete as duas horas.
 
-### `layouts`
+## 🔖 Layout
 
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
+Você pode visualizar o layout do projeto através [desse link](https://movue-it-jeanbauch-jeanbauch.vercel.app/).
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
+## 🚀 Como executar
 
+- Clone o repositório
+- Instale as dependências com `yarn` ou `npm install`
+- Inicie o servidor com `npm run dev`
+- Enjoy
 
-### `pages`
+Agora você pode acessar [`localhost:3000`](http://localhost:3000) do seu navegador.
 
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
+## 📄 Licença
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
-
-### `plugins`
-
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
-
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
