@@ -17,7 +17,7 @@
 ## Features
 
 <p align="center">
-	![2022-03-04 12-02-49](https://user-images.githubusercontent.com/61170558/156807241-6c782568-c560-481b-a71f-fc5572b3d329.gif)
+	<img alt="Gif Demo" width="100%" src="https://user-images.githubusercontent.com/61170558/156807241-6c782568-c560-481b-a71f-fc5572b3d329.gif">
 </p>
 
 - [x] Desenvolvimento de tela unica englobando todos os `componentes`:
