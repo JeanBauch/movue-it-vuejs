@@ -39,12 +39,7 @@
 - [ ] Tema Dark;
 
 <div style="display: inline_block" align="center"><br>
-  <img align="center" alt="telaMobile" width="16%" src=".github/images/img-01.png">
-  <img align="center" alt="telaMobile" width="16%" src=".github/images/img-02.png">
-  <img align="center" alt="telaMobile" width="16%" src=".github/images/img-03.png">
-  <img align="center" alt="telaMobile" width="16%" src=".github/images/img-04.png">
-  <img align="center" alt="telaMobile" width="16%" src=".github/images/img-05.png">
-  <img align="center" alt="telaMobile" width="16%" src=".github/images/img-06.png">
+  <img align="center" alt="telaMobile" width="80%" src="https://user-images.githubusercontent.com/61170558/156808710-ad88f58e-3770-46e3-ab41-d57d9465ab50.png">
 </div>
 
 ## ✨ Tecnologias
