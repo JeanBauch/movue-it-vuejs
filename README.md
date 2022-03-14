@@ -17,7 +17,7 @@
 ## Features
 
 <p align="center">
-  <img alt="Funcionamento Movue.it" src=".github/images/ " width="100%">
+	<img alt="Gif Demo" width="60%" src="https://user-images.githubusercontent.com/61170558/156807241-6c782568-c560-481b-a71f-fc5572b3d329.gif">
 </p>
 
 - [x] Desenvolvimento de tela unica englobando todos os `componentes`:
@@ -39,12 +39,7 @@
 - [ ] Tema Dark;
 
 <div style="display: inline_block" align="center"><br>
-  <img align="center" alt="telaMobile" width="16%" src=".github/images/img-01.png">
-  <img align="center" alt="telaMobile" width="16%" src=".github/images/img-02.png">
-  <img align="center" alt="telaMobile" width="16%" src=".github/images/img-03.png">
-  <img align="center" alt="telaMobile" width="16%" src=".github/images/img-04.png">
-  <img align="center" alt="telaMobile" width="16%" src=".github/images/img-05.png">
-  <img align="center" alt="telaMobile" width="16%" src=".github/images/img-06.png">
+  <img align="center" alt="telaMobile" width="80%" src="https://user-images.githubusercontent.com/61170558/156808710-ad88f58e-3770-46e3-ab41-d57d9465ab50.png">
 </div>
 
 ## ✨ Tecnologias
