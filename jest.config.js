@@ -24,4 +24,5 @@ module.exports = {
 		'<rootDir>/utils/**/*.ts',
 		'!<rootDir>/**/types.ts',
 	],
+	"testEnvironment": "jsdom",
 };
