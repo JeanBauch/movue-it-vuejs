@@ -65,14 +65,14 @@ describe('Pages:index', () => {
 			const wrapper = mount(Index, config);
 			expect(wrapper.html()).toMatchSnapshot();
 		});
-		/*
+
 		it('should render all child components and cycle completed button', () => {
 			const config = buildWrapper({ hasCompleted: true });
 			const wrapper = mount(Index, config);
 			expect(wrapper.html()).toMatchSnapshot();
-		});*/
+		});
 	});
-	/*
+
 	describe('Meta info', () => {
 		it('should have a meta title', () => {
 			const config = buildWrapper();
@@ -128,6 +128,7 @@ describe('Pages:index', () => {
 		});
 	});
 
+
 	describe('Emitted events', () => {
 		it('should run getNewChallenge and play audio and send notification', async () => {
 			global.Notification = {
@@ -140,7 +141,7 @@ describe('Pages:index', () => {
 			const config = buildWrapper();
 			const wrapper = mount(Index, config);
 
-			const setCurrentChallengeIndex = jest.spyOn(wrapper.vm, 'setCurrentChallengeIndex');
+			const setCurrentChallengeIndex = jest.spyOn(wrapper.vm, "setCurrentChallengesIndex");
 
 			const countdown = wrapper.findComponent(Countdown);
 			await countdown.vm.$emit('completed');
@@ -163,7 +164,7 @@ describe('Pages:index', () => {
 			const config = buildWrapper();
 			const wrapper = mount(Index, config);
 
-			const setCurrentChallengeIndex = jest.spyOn(wrapper.vm, 'setCurrentChallengeIndex');
+			const setCurrentChallengeIndex = jest.spyOn(wrapper.vm, "setCurrentChallengesIndex");
 
 			const countdown = wrapper.findComponent(Countdown);
 			await countdown.vm.$emit('completed');
@@ -177,5 +178,4 @@ describe('Pages:index', () => {
 			expect(scrollToElement).toHaveBeenCalledWith('#challenge');
 		});
 	});
-	*/
 });
